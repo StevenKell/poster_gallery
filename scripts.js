@@ -4,6 +4,8 @@ const app = Vue.createApp({
     <p>This is a second line of HTML code, inside backtick quotes</p>`,
     data() {
         return {
+            
+            
             message: "Hello World!"
         }
     }

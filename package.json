@@ -2,11 +2,22 @@
   "name": "poster_gallery",
   "version": "1.0.0",
   "description": "A portfolio of graphics created to promote events.",
-  "main": "scripts.js",
+  "author": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "scripts.js",
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "path": "^0.12.7",
+    "roboto-fontface": "*",
+    "vuetify": "^3.0.0-beta.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  },
   "keywords": [],
-  "author": "",
   "license": "ISC"
 }
